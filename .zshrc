@@ -131,3 +131,4 @@ export PATH="$PATH:$HOME/go/bin"
 
 export PATH="$HOME/Desktop/Scripts/.lock:$PATH"
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+eval "$(dircolors -b ~/.dircolors)"
