@@ -70,7 +70,7 @@ ZSH_THEME="gnzh-custom"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -130,5 +130,4 @@ export PATH="$HOME/Desktop/Scripts/Api:$PATH"
 export PATH="$PATH:$HOME/go/bin"
 
 export PATH="$HOME/Desktop/Scripts/.lock:$PATH"
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 eval "$(dircolors -b ~/.dircolors)"
