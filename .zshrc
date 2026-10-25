@@ -128,6 +128,8 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$HOME/Desktop/Scripts:$PATH"
 export PATH="$HOME/Desktop/Scripts/Api:$PATH"
 export PATH="$PATH:$HOME/go/bin"
+export PATH="$HOME/.local/bin:$PATH"
 
 export PATH="$HOME/Desktop/Scripts/.lock:$PATH"
 eval "$(dircolors -b ~/.dircolors)"
+export PATH="$HOME/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin:$PATH"
